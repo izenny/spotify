@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+            {
+                margin: 0;
+            }
+        header
+            { 
+                background-color: black;
+            }
+        .alink
+            {
+                text-decoration: none;
+                color: aliceblue;
+                margin-left:20px ;
+                
+            }
+        .top
+            {
+                display: flex;  
+            }
+        .top-tags
+            {
+                display: flex;
+                justify-content: right;
+                width: 1040px;
+                margin: 30px;
+                font-size: large;
+                background-color: rgb(0, 0, 0);  
+            }
+        .sdivone
+            {
+                background-image: url("https://media.bauerradio.com/image/upload/c_crop,g_custom/v1672214075/brand_manager/stations/rbg1narjpfatwxaxuhn3.png");
+                height:567px ; 
+                background-repeat: no-repeat;
+                display: flex;
+                 
+            }
+        .srigtimg
+            {
+                background-color: white; 
+                margin-top: 17px;
+                margin-left: 100px;
+                border-top-right-radius: 25px;
+                border-top-left-radius: 25px; 
+            }
+        .srigtimgi
+            {
+                margin-top: 20px;
+                margin-left: 125px;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        .srigtimgin
+            {
+                height: 500px;
+                padding-top: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 0px;   
+            }
+        .srigth
+            {   
+                margin-left:120px ;
+                margin-top: 130px;
+                
+            }
+        .srigtho
+            {
+                color: aliceblue; 
+                font-size: 75px;
+                letter-spacing: -1.92px;
+                /* font-weight: 900; */
+                
+            }
+        .srigthbd
+            {
+                
+            }
+        .srigthb
+            {
+                height: 50px;
+                width: 250px;
+                border-radius: 25px;
+                border: 0;
+                margin-left: 150px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        .srigthb:hover
+            {
+                transform: scale(1.08,1.08);
+                cursor: pointer;
+                transition-duration: .5s;
+            }
+        .sdivtwo
+            {
+                display: block;
+                
+            }
+        .sdivthead
+            {
+                text-align: center;
+                font-size: 34px;
+                padding-top: 20px;
+            }
+        
+        .stwoimg
+            {
+                height: 120px;
+                width: 135px;
+                /* padding-left: 70px; */
+                             
+            }
+        .stwoplay
+            {
+                grid-area: stwoplayo;
+                text-align: center;
+            }
+        .stwoplist
+            {
+                grid-area: stwoplistt;
+                text-align: center;
+            }
+        .stwofav
+            {
+                grid-area: stwofavth;
+                text-align: center;
+            }
+        .stwodta
+            {
+                grid-area: stwodtaf;
+                text-align: center;
+            }
+        .sdivtcon
+            {
+                margin-top: 70px;
+                margin-bottom: 130px;
+                margin-left: 50px;
+                margin-right: 50px;
+                /* margin-left: 20px;  */
+                display: grid;
+                grid-template-areas:
+                'stwoplayo stwoplistt stwofavth stwodtaf '  
+                 ;
+                
+               
+            }
+        .sdivtx
+            {
+                
+            }
+        .sdivimgh
+            {
+                font-weight: bold;
+                
+                font-size: 30px;  
+            }
+        .sdivimgp
+            {
+                text-align: center;
+                line-height: 1.5;
+                font-size: 20px;
+                padding: 20px;
+                padding-top: 0;
+            }
+        footer
+            {
+                
+            }
+        .fdivone
+            {
+                grid-area: one;    
+            }
+        .fdivtwo
+            {
+                grid-area: two;
+                
+            }
+        .fdivthree
+            {
+                grid-area: three;
+                
+            }
+        .fdivfour
+            {
+                grid-area: four;   
+            }
+        .fdivfive
+            {
+                grid-area: five;   
+            }
+        .fgridcontainer
+            {
+                display: grid;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                background-color: black;
+                grid-template-areas: 
+                    'one two three four five'
+                    'one two three four five'
+                    'one two three four five'
+                ;
+            }
+        .fdivoneimg
+            {
+                height: 80px;
+                
+            }
+        
+        li
+            {
+                list-style: none;
+                margin-bottom: 15px;
+            }
+        .lihead
+            {
+                color: rgb(215, 227, 235);
+            }
+        
+    </style>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+</head>
+<body>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"> -->
+        
+    <!-- </script>  -->
+    <header>
+        <div class="top"> 
+            <div class="top-image">
+                <img src="https://cdn.analyticsvidhya.com/wp-content/uploads/2023/03/11167spotify-logo-1920x1080-2_8MlUCWA.jpg" alt="" height="80px">
+            </div>
+                <div class="top-tags">
+                    <a class="alink" href="">Premium</a>
+                    <a class="alink" href="">Support</a>
+                    <a class="alink" href="">Download</a>
+                    <a class="alink" href="">Sign up</a>
+                    <a class="alink" href="">Login</a>         
+                </div>
+        </div>
+    </header>
+    <section>
+        <div class="sdivone"> 
+            <div class="srigtimg">
+                <div class="srigtimgi">
+                    <img  src="phonespeaker.JPG" alt="">
+                </div >
+                
+                <img class="srigtimgin" src="https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b" alt="">
+            </div>
+            <div class="sleft">
+                <div class="srigth">
+                    <h1 class="srigtho">Play millions of songs and podcasts, for free.</h1>
+                </div>
+                <div class=".srigthbd">
+                    <button class="srigthb">GET SPOTIFY FREE</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="sdivtwo">
+            <div class="sdivthead">
+                <h2>Why Spotify?</h2>
+            </div>
+            <div class="sdivtcon">
+                <div class="stwoplay">
+                    <div>
+                        <img class="stwoimg" src="https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57" alt="">
+                    </div>
+                    <div class="sdivtx">
+                        <h3 class="sdivimgh">Play your favorites.</h3>
+                        <p class="sdivimgp">Listen to the songs you love, and discover new music and podcasts.</p>
+                    </div>
+                </div>
+                <div class="stwoplist">
+                    <div>
+                        <img class="stwoimg" src="https://i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66" alt="">
+                    </div>
+                    <div class="sdivtx">
+                        <h3 class="sdivimgh">Playlists made easy.</h3>
+                        <p class="sdivimgp">We'll help you make playlists. Or enjoy playlists made by music experts.</p>
+                    </div>
+                </div>
+                <div class="stwofav">
+                    <div>
+                        <img class="stwoimg" src="	https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d" alt="">
+                    </div>
+                    <div class="sdivtx">
+                        <h3 class="sdivimgh">Make it yours.</h3>
+                        <p class="sdivimgp">Tell us what you like, and we'll recommend music for you.</p>
+                    </div>
+                </div>
+                <div class="stwodta">
+                    <div >
+                        <img class="stwoimg" src="	https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc" alt="">
+                    </div>
+                    <div class="sdivtx">
+                        <h3 class="sdivimgh">Save mobile data.</h3>
+                        <p class="sdivimgp">To use less data when you play music, turn on Data Saver in Settings.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+              </div>
+        </div> -->
+    </section>
+    
+    <footer>
+        <div class="fgridcontainer">
+            <div class="fdivone">
+                <img class="fdivoneimg" src="" alt="">
+                +
+            </div>
+            <div class="fdivtwo">
+                <ul>
+                    <li class="lihead">COMPANY</li>
+                    <li><a class="alink" href="">About</a></li>
+                    <li><a class="alink" href="">Jobs</a></li>
+                    <li><a class="alink" href="">For the Record</a></li>
+                </ul>
+            </div>
+            <div class="fdivthree">
+                <ul>
+                    <li class="lihead">COMMUNITIES</li>
+                    <li><a class="alink" href="">For Artists</a></li>
+                    <li><a class="alink" href="">Developers</a></li>
+                    <li><a class="alink" href="">Advertising</a></li>
+                    <li><a class="alink" href="">Investors</a></li>
+                    <li><a class="alink" href="">Vendors</a></li>
+                </ul>
+            </div>
+            <div class="fdivfour">
+                <ul>
+                    <li class="lihead">USEFUL LINKS</li>
+                    <li><a class="alink" href="">Support</a></li>
+                    <li><a class="alink" href="">Web Player</a></li>
+                    <li><a class="alink" href="">Free Mobile App</a></li>
+                </ul>
+            </div>
+            <div class="fdivfive">
+
+            </div>
+        </div>
+        
+    </footer>
+        
+    
+</body>
+</html>
